@@ -1,0 +1,32 @@
+body {font-size:100%; font-family:'Segoe UI', 'HelveticaNeue', Arial, sans-serif;}
+p.heading0 {font-weight:bold; font-style:italic; font-size:100%; margin:0px; padding-left:5px; color:#000000; background:#ccccff}
+p.heading1 {font-weight:bold; font-size:200%; margin:0px; padding-top:0.1em; padding-left:5px; color:#000000;}
+p.heading1a {font-weight:bold; font-size:150%; margin:0px; margin-top:1em; padding-left:5px; color:#4040FF;}
+p.heading1aa {font-weight:bold; font-size:150%; margin:0px; padding-left:5px; color:#4040FF;}
+p.heading2a {font-weight:bold; font-size:125%; margin:0px; padding-left:5px; color:#000000;}
+p.heading2 {font-weight:bold; font-size:125%; margin:0px; margin-top:1em; padding-left:5px; color:#000000;}
+div.content {font-size:100%; margin-top:5px; margin-right:5px; margin-bottom:0px; padding-left:5px; color:#000000;}
+div.copyright {font-size:100%; padding-bottom:5px; padding-left:5px; color:#000000; page-break-after:always;}
+hr.separator {border-color:#9999ff; color:#9999ff; font-size:0.5em;}
+table, th, td {border-color:#aaaaaa; border-collapse:collapse;}
+table.VbCs td {border:1px solid #ffffff; padding:5px;}
+th {background:#dddddd; font-weight:bold; font-size:100%; color:#000000; text-align:left;}
+td {font-size:100%; color:#000000; text-align:left; vertical-align:top;}
+xmp {margin:0px; font-size:90%; font-family:monospace,monospace;}
+pre {margin:0px; font-size:90%; font-family:monospace,monospace;}
+code {font-size:90%; font-family:monospace,monospace;}
+ul {margin-top:0px; list-style:square; padding-left:2em;}
+ol {margin-top:0px;}
+a:hover {background:#FFFF40;}
+
+.pre {white-space:pre;}
+
+div.greyblock {width:100%;overflow:auto;background:#dddddd;padding:1em;box-sizing:border-box;}
+div.codeblock {width:100%;overflow:auto;background:#dddddd;padding:1em;box-sizing:border-box;}
+div.indentedblock {width:100%;overflow:auto;padding-left:2em;box-sizing:border-box;}
+div.overflowblock {width:100%;overflow:auto;box-sizing:border-box;}
+
+table.vbcsblock {width:100%;}
+table.vbcsblock td {border:1px solid #ffffff; padding:0.333em; background:#dddddd}
+
+img {max-width:100%;height:auto}
