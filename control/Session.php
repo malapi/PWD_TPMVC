@@ -24,6 +24,8 @@ class Session{
             $usuario = $resultado[0];
             $_SESSION['idusuario']=$usuario->getidusuario();
             $resp = true;
+        } else {
+            $this->cerrar();
         }
         return $resp;
     }
@@ -90,7 +92,9 @@ class Session{
      *Cierra la sesión actual.
      */
     public function cerrar(){
-        $resp = false;
+        $resp = true;
+        session_destroy();
+       // $_SESSION['idusuario']=null;
         return $resp;
     }
    

@@ -128,7 +128,7 @@ class Usuario extends BaseDatos
             $sql.='WHERE '.$parametro;
         }
         if ($this->Iniciar()) {
-          //  echo $sql;
+            echo $sql;
         $res = $this->Ejecutar($sql);
         if($res>-1){
             if($res>0){

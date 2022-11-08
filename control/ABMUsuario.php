@@ -187,7 +187,7 @@ class ABMUsuario{
         }
         $obj = new Usuario();
         $arreglo = $obj->listar($where);
-        //echo "Van ".count($arreglo);
+        echo "Van ".count($arreglo);
         return $arreglo;
     }
     

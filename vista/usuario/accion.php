@@ -1,6 +1,5 @@
 <?php
 include_once("../estructura/cabeceraBT.php");
-include_once("../../configuracion.php");
 $datos = data_submitted();
 $resp = false;
 $objTrans = new ABMUsuario();

@@ -1,6 +1,6 @@
 <?php
 $Titulo = " Ejemplos del uso de CharDirector ";
-include_once("../estructura/cabeceraBT.php");
+include_once("../estructura/cabeceraBTNoSegura.php");
 include_once("../../configuracion.php");
 ?>
 
