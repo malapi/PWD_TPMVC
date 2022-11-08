@@ -1,5 +1,5 @@
 <?php
-include_once("../estructura/cabeceraBT.php");
+include_once("../estructura/cabeceraBTNoSegura.php");
 $datos = data_submitted();
 $resp = false;
 //Array ( [accion] => login [usnombre] => malapi [uspass] => d41d8cd98f00b204e9800998ecf8427e )

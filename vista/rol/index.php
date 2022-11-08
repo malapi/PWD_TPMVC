@@ -1,7 +1,6 @@
 <?php
 $Titulo = " Gestion de Roles";
 include_once("../estructura/cabeceraBT.php");
-include_once("../../configuracion.php");
 $datos = data_submitted();
 
 $obj= new ABMRol();

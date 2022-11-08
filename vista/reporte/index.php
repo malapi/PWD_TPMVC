@@ -1,7 +1,6 @@
 <?php
 $Titulo = " Reportes de Tigres ";
 include_once("../estructura/cabeceraBT.php");
-include_once("../../configuracion.php");
 ?>
 
     <h1 class="h2">Demostracion Herramienta CharDirector</h1>

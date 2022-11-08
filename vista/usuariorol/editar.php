@@ -1,7 +1,6 @@
 <?php
-$Titulo = " Especie ";
+$Titulo = " Usuario Rol ";
 include_once("../estructura/cabeceraBT.php");
-include_once("../../configuracion.php");
 $datos = data_submitted();
 
 $objC = new ABMUsuario();
