@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../css/bootstrap/4.5.2/bootstrap.min.css" >
     <link rel="stylesheet" href="../css/bootstrap/4.5.2/bootstrapValidator.min.css" >
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
     <title><?php echo $Titulo?></title>    
 </head>
 <body>
